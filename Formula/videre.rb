@@ -11,24 +11,24 @@
 class Videre < Formula
   desc "Local-first CLI for photo and video libraries: duplicates, search, faces"
   homepage "https://github.com/erhangundogan/videre"
-  version "0.50.0"
+  version "0.51.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
       url "https://github.com/erhangundogan/videre/releases/download/v#{version}/videre-v#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "2222a6050a8a79df8db8783c9e4098d72a0dec7f828f891a3affd82138f3bba2"
+      sha256 "fccf8f2d54d6ff7ae13b3474c9206b06f5c58b1ac149222b727101f49fd30971"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/erhangundogan/videre/releases/download/v#{version}/videre-v#{version}-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "64d88d1a27a19a8fa20a2b052eef3b4bce070ecf5d3c5ec924b83ecf4d2c95da"
+      sha256 "7b75bbed32499e58575a7c46c69e3129434e395c4f050ff2f38e98ea3fbf7f37"
     end
     on_arm do
       url "https://github.com/erhangundogan/videre/releases/download/v#{version}/videre-v#{version}-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "d5dfd08840a10e5aa77c6506d58079432b234ea54308847dbc4a8e2c6f00e261"
+      sha256 "35dd8fb3116c81ea399930fee332c2e248bdf2ad2b7e3895ac57c8981d2b2c8c"
     end
   end
 
